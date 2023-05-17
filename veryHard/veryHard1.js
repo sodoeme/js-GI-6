@@ -1,3 +1,6 @@
+// BRUTE FORCE 
+// SEE V2 FOR EFFICIENT VERSION
+
 function leastCoins(arr, amount) {
   //sort arr in descending order
   arr.sort((a, b) => b - a);
