@@ -44,7 +44,7 @@ function leastCoins(arr, amount) {
     return -1;
   }
 }
-//This version runs runce per coin where as in the prev version it runs n times per coin.
+//This version runs once per coin where as in the prev version it runs n times per coin.
 // n = the amuont of times the number goes into its startin amount
 console.log(leastCoins([1,2,3,4,5,6,7,8,9], 99985));
 console.log(leastCoins([1, 2, 5], 11));
